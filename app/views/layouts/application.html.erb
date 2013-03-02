@@ -10,30 +10,13 @@
 <body>
 <div class="navbar navbar-inverse">
   <div class="navbar-inner">
-    <div class="container">
-      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
- 
-      <!-- Be sure to leave the brand out there if you want it shown -->
-      <a class="brand" href="#">CVTutor</a>
-      <ul class="nav">
-        <li class="active">
-          <a href="#">Home</a>
-        </li>
-        <li><a href="#">Members</a></li>
-        <li><a href="#">School Website</a></li>
-        <li><a href="#">Subjects and Courses</a></li>
-      </ul>
-      <!-- Everything you want hidden at 940px or less, place within here -->
-      <div class="nav-collapse collapse">
-        <!-- .nav, .navbar-search, .navbar-form, etc -->
-      </div>
- 
-    </div>
+    <a class="brand" href="#">CVTutor</a>
+    <ul class="nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Members</a></li>
+      <li><a href="#">School Website</a></li>
+      <li><a href="#">Subjects and Courses</a></li>
+    </ul>
   </div>
 </div>
 <div class="container-fluid">
@@ -48,7 +31,7 @@
     <% end %>
   </div>
 </div>
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="span8"><%= yield %></div>
     <div class="span4">
