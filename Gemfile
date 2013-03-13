@@ -28,7 +28,7 @@ group :assets do
   
   gem 'less-rails'
 end
-
+gem 'sqlite3'
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
