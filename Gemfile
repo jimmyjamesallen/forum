@@ -28,7 +28,9 @@ group :assets do
   
   gem 'less-rails'
 end
-gem 'sqlite3'
+group :development do
+	gem 'sqlite3'
+end
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
@@ -38,7 +40,7 @@ gem 'jquery-rails'
 # gem 'jbuilder'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'
