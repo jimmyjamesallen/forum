@@ -12,24 +12,25 @@
   <div class="navbar-inner">
     <div class="container">
  
-      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+	 <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
       <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-      </a>
+      </a>     
  
       <!-- Be sure to leave the brand out there if you want it shown -->
       <a class="brand" href="#">CVTutor</a>
-      <ul class="nav">
-        <li><%= link_to "Home", posts_path %></li>
-        <li><%= link_to "Students", students_index_path%></li>
-        <li><%= link_to "School Website", "http://www.cherokee.k12.ga.us/Schools/creekview-hs/default.aspx"%></li>
-      </ul>
+      
  
       <!-- Everything you want hidden at 940px or less, place within here -->
       <div class="nav-collapse collapse">
         <!-- .nav, .navbar-search, .navbar-form, etc -->
+         <ul class="nav">
+          <li><%= link_to "Home", posts_path %></li>
+          <li><%= link_to "Students", students_index_path%></li>
+          <li><%= link_to "School Website", "http://www.cherokee.k12.ga.us/Schools/creekview-hs/default.aspx"%></li>
+        </ul>
       </div>
  
     </div>
