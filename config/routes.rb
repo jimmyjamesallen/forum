@@ -4,6 +4,7 @@ Forum::Application.routes.draw do
   get "schoolwebsite/index"
 
   get "students/index"
+  resources :users
 
   devise_for :users
 

@@ -1,0 +1,13 @@
+<h1>CVT Students</h1>
+
+<table>
+  <tr>
+    <th></th>
+  </tr>
+
+<% @users.each do |user| %>
+  <tr>
+    <td style="width:50%"><%= link_to user.email,user %></td>
+  </tr>
+<% end %>
+</table>

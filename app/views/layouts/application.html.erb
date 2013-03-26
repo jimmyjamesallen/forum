@@ -20,7 +20,7 @@
       </a>     
  
       <!-- Be sure to leave the brand out there if you want it shown -->
-      <a class="brand" href="#">CVTutor</a>
+      <a class="brand" href="<%= posts_path %>">CVTutor</a>
       
  
       <!-- Everything you want hidden at 940px or less, place within here -->
@@ -28,7 +28,7 @@
         <!-- .nav, .navbar-search, .navbar-form, etc -->
          <ul class="nav">
           <li><%= link_to "Home", posts_path %></li>
-          <li><%= link_to "Students", students_index_path%></li>
+          <li><%= link_to "Students", users_path%></li>
           <li><%= link_to "School Website", "http://www.cherokee.k12.ga.us/Schools/creekview-hs/default.aspx"%></li>
         </ul>
       </div>

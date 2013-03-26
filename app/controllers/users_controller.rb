@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   before_filter :authenticate_user!, :only => [:index,:new,:edit]
-  before_filter :accessible_roles, :only => [:new, :edit, :show, :update, :create]
+  #before_filter :accessible_roles, :only => [:new, :edit, :show, :update, :create]
 
   def index
     @users = User.all
